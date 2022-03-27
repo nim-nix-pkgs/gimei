@@ -11,6 +11,7 @@
   inputs.src-gimei-master.ref   = "refs/heads/master";
   inputs.src-gimei-master.owner = "mkanenobu";
   inputs.src-gimei-master.repo  = "nim-gimei";
+  inputs.src-gimei-master.dir   = "";
   inputs.src-gimei-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
