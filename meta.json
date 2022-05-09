@@ -7,41 +7,8 @@
   "license": "MIT",
   "web": "https://github.com/mkanenobu/nim-gimei",
   "refs": [
-    "refs/heads/master",
-    "refs/heads/renovate/configure",
+    "fatal: unable to access 'https://github.com/mkanenobu/nim-gimei/': Could not resolve host: github.com",
     ""
   ],
-  "heads": [
-    {
-      "name": "gimei",
-      "version": "0.1.0",
-      "author": "Mitsuru Kanenobu",
-      "desc": "random Japanese name and address generator",
-      "license": "MIT",
-      "skipDirs": [
-        "test",
-        "data"
-      ],
-      "skipFiles": [],
-      "skipExt": [],
-      "installDirs": [],
-      "installFiles": [],
-      "installExt": [],
-      "requires": [
-        {
-          "name": "nim",
-          "str": ">= 1.0.2",
-          "ver": {
-            "kind": "verEqLater",
-            "ver": "1.0.2"
-          }
-        }
-      ],
-      "bin": [],
-      "binDir": "",
-      "srcDir": "src",
-      "backend": "c",
-      "ref": "refs/heads/master"
-    }
-  ]
+  "heads": []
 }
